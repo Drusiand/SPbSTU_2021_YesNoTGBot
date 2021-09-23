@@ -1,8 +1,12 @@
 from telebot import TeleBot
 import requests
+import os
 
-bot = TeleBot("2033082021:AAF8bmJClxGORGLZiP7LH0E0EMO3OAhYJU8")
-url = "https://yes-no-server.herokuapp.com/games/"
+TOKEN = os.environ["TOKEN"]
+URL = os.environ["URL"]
+
+bot = TeleBot(TOKEN)
+url = URL
 games = list()
 
 
