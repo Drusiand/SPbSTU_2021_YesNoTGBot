@@ -1,0 +1,4 @@
+settings.py
+.mypy_cache
+.idea
+__pycache__
