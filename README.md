@@ -1,6 +1,6 @@
 # Yes/No bot
 
-This is a telegramm bot client which is written on python with telegrammbotapi and server is written on python with django framework. Connection is provided with django rest framework. Server is hosted on heroku, client is accessible through telegramm as @YesNoGamesBot. The whole application is designed to show so called "yes/no games".
+This is a telegramm bot which is written on python with telegrammbotapi and server is written on python with django framework. Connection is provided with django rest framework. Server is hosted on heroku so as the client which is accessible through telegramm as @YesNoGamesBot. The whole application is designed to show so called "yes/no games".
 
 ## Accessing application
 
